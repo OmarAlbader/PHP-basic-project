@@ -13,12 +13,12 @@
                 <div>
                     <div class="mt-2">
                         <label for="email" class="sr-only">Email address</label>
-                        <input value="<?= !empty($errors) ? $_POST['email'] : "" ?>" type="email" name="email" id="email" placeholder="Email address" autocomplete="email" required class="block w-full rounded-t-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        <input value="<?= old('email') ?>" type="email" name="email" id="email" placeholder="Email address" autocomplete="email" required class="block w-full rounded-t-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                     </div>
 
                     <div>
                         <label for="password" class="sr-only">Password</label>
-                        <input value="<?= !empty($errors) ? $_POST['password'] : "" ?>" type="password" name="password" id="password" placeholder="Password" autocomplete="current-password" required class="block w-full rounded-b-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                        <input type="password" name="password" id="password" placeholder="Password" autocomplete="current-password" required class="block w-full rounded-b-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                     </div>
                 </div>
 
