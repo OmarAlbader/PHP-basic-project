@@ -1,0 +1,26 @@
+{
+  "name": "omara/demo",
+  "authors": [
+    {
+      "name": "OmarAlbader",
+      "email": "oabader21@cit.just.edu.jo"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "require": {
+    "illuminate/collections": "^11.42"
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.7"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
